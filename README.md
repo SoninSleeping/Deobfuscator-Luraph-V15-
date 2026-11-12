@@ -11,7 +11,7 @@ com suporte à nova arquitetura do Luraph v15:
 ## Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/luraph-v15-deob.git
+git clone https://github.com/SoninSleeping/luraph-v15-deob.git
 cd luraph-v15-deob
 npm install
 ```
