@@ -1,0 +1,22 @@
+{
+  "name": "luraph-v15-deob",
+  "version": "1.0.0",
+  "description": "Extended Luraph v15 deobfuscator with LPH_ATTRIBUTES, dual ISA and precheck bypass",
+  "main": "deob.js",
+  "scripts": {
+    "start": "node deob.js",
+    "detect": "node deob.js --detect",
+    "test": "node deob.js sample/amostra.lua --detect"
+  },
+  "bin": {
+    "luraph-deob": "./deob.js"
+  },
+  "dependencies": {
+    "luau-ast": "^0.2.0",
+    "commander": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
