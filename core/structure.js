@@ -1,7 +1,7 @@
 // core/structure.js
 // Aplica transforms em funções VM(NONE).
 
-const { liftTransformedFunction } = require('../src/transforms');
+const { liftTransformedFunction } = require('./transforms');
 
 function structure(ast, functionAttrs) {
     functionAttrs.forEach((attrs, fnNode) => {
